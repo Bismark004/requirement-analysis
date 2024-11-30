@@ -1,4 +1,4 @@
-# Requirement Analysis in Sofftware Development
+# Requirement Analysis in Software Development
 
 
 ## Introduction
