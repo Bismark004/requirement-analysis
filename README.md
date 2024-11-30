@@ -147,6 +147,48 @@ Use Case Diagrams visually represent the interactions between users (actors) and
 Below is the use case diagram for the booking management system:
 
 ![Use Case Diagram](./alx-booking-uc.png)
+## Acceptance Criteria ✅
+
+### Importance of Acceptance Criteria in Requirement Analysis
+
+Acceptance Criteria are critical in Requirement Analysis as they define the conditions that a feature must meet to be considered complete and acceptable to stakeholders. They ensure alignment between the development team and stakeholders by:
+
+- **Providing Clarity**: Clearly outlining what is expected of a feature, reducing misunderstandings.  
+- **Facilitating Testing**: Serving as a benchmark for testing and validating feature functionality.  
+- **Ensuring Quality**: Helping ensure the delivered feature meets user expectations and business goals.  
+
+By establishing Acceptance Criteria early, teams can avoid rework, save time, and maintain project quality.
+
+---
+
+### Example: Acceptance Criteria for the Checkout Feature
+
+For the **Checkout feature** in the booking management system, the Acceptance Criteria may include:
+
+1. **User Selection**:  
+   - Users can select a property from their booking cart.  
+   - Users must confirm booking details before proceeding to payment.
+
+2. **Payment Processing**:  
+   - The system should support multiple payment methods (credit card, PayPal).  
+   - Payments must be processed securely, adhering to PCI DSS standards.  
+
+3. **Confirmation and Notification**:  
+   - A confirmation page must be displayed upon successful payment.  
+   - Users should receive an email with booking details and a receipt within 2 minutes.
+
+4. **Error Handling**:  
+   - If payment fails, users should see an error message with retry options.  
+   - Users should be able to contact support through a provided link in case of repeated failure.
+
+---
+
+### Benefits of Establishing Acceptance Criteria
+
+- Ensures all parties have a mutual understanding of the feature.  
+- Reduces ambiguity and improves communication between stakeholders and the development team.  
+- Helps in defining clear testing scenarios and acceptance tests.  
+
 
 
 
