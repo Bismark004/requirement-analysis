@@ -88,46 +88,6 @@ Requirement Analysis involves a series of key activities to ensure that the soft
   - Defining clear acceptance criteria for each requirement  
   - Establishing traceability to track requirements throughout development
  
-  ## Types of Requirements
-
-In software development, requirements are categorized into Functional and Non-functional Requirements. Here’s a breakdown for the booking management system:
-
-### Functional Requirements ⚙️
-
-Functional requirements define what the system should do, focusing on specific functionalities and features. For the booking management system, examples include:
-
-- **Search Properties**:  
-  Users should be able to search for properties based on location, price, and availability.
-
-- **User Registration**:  
-  New users should be able to create accounts by providing personal details and login credentials.
-
-- **Property Listings**:  
-  Display properties with essential details such as images, descriptions, and pricing.
-
-- **Booking System**:  
-  Users should be able to book properties, view booking details, and manage their reservations.
-
-- **User Authentication**:  
-  Secure login and registration process to protect user data and ensure only authorized access.
-
----
-
-### Non-functional Requirements 🛡️
-
-Non-functional requirements describe how the system should perform, focusing on quality attributes like performance, security, and usability. For the booking management system, examples include:
-
-- **Performance**:  
-  The system should load pages within 2 seconds and handle up to 1000 concurrent users.
-
-- **Security**:  
-  Implement data encryption for sensitive information and ensure protection against vulnerabilities like SQL injection and cross-site scripting.
-
-- **Scalability**:  
-  The system should scale horizontally to accommodate increased traffic during peak periods.
-
-- **Usability**:  
-  The application should feature an intuitive an
 ## Types of Requirements
 
 In software development, requirements are categorized into Functional and Non-functional Requirements. Here’s a breakdown for the booking management system:
@@ -151,8 +111,6 @@ Functional requirements define what the system should do, focusing on specific f
 - **User Authentication**:  
   Secure login and registration process to protect user data and ensure only authorized access.
 
----
-
 ### Non-functional Requirements 🛡️
 
 Non-functional requirements describe how the system should perform, focusing on quality attributes like performance, security, and usability. For the booking management system, examples include:
@@ -167,7 +125,10 @@ Non-functional requirements describe how the system should perform, focusing on 
   The system should scale horizontally to accommodate increased traffic during peak periods.
 
 - **Usability**:  
-  The application should feature an intuitive an
+  The application should feature an intuitive and user-friendly interface, making it easy for users to navigate and perform tasks.
+
+- **Reliability**:  
+  Ensure 99.9% uptime with mechanisms for quick recovery in case of system failures.
 
 
 
